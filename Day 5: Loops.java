@@ -14,6 +14,7 @@ public class Solution {
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         int i=1;
+        
         while(i<11)
         {
             System.out.println(n+" x "+i+" = "+(n*i));
